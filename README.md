@@ -1,6 +1,7 @@
 # jquery-ui-menubar
 Filemenu / menubar / topmenu for jquery-ui
-Horizontal jquery-ui menus that respects the base theme
+- Horizontal jquery-ui menus that respects the base theme
+- Works with checkboxes too
 
 Demo and Usage: https://joedf.github.io/jquery-ui-menubar
 
