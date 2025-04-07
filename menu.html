@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>jquery-ui-menubar</title>
+
+	<!-- <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
+
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+	
+	<link rel="stylesheet" href="menubar.css">
+	<script src="menubar.js"></script>
+</head>
+
+<body>
+	<style>
+		body {
+			font-family: sans-serif;
+			box-sizing: border-box;
+			padding: 2em;
+		}
+	</style>
+
+	<ul id="menubar" class="menubar">
+		<li>
+			<div>File</div>
+			<ul>
+				<li><div><span class="ui-icon ui-icon-folder-open"></span>Open</div></li>
+				<li class="ui-state-disabled"><div>Open (disabled)</div></li>
+				<li>
+					<div><span class="ui-icon ui-icon-clock"></span>Open Recent...</div>
+					<ul>
+						<li><div><span class="ui-icon ui-icon-document"></span>File A</div></li>
+						<li><div><span class="ui-icon ui-icon-document"></span>File B</div></li>
+						<li><div><span class="ui-icon ui-icon-document"></span>File C</div></li>
+					</ul>
+				</li>
+				<li class="divider"></li>
+				<li><div><span class="ui-icon ui-icon-power"></span>Quit</div></li>
+			</ul>
+		</li>
+		<li>
+			<div>jQuery example</div>
+			<ul>
+				<li><div><span class="ui-icon ui-icon-disk"></span>Save</div></li>
+				<li><div><span class="ui-icon ui-icon-zoomin"></span>Zoom In</div></li>
+				<li><div><span class="ui-icon ui-icon-zoomout"></span>Zoom Out</div></li>
+				<li class="ui-state-disabled">
+					<div><span class="ui-icon ui-icon-print"></span>Print...</div>
+				</li>
+				<li>
+					<div>Playback</div>
+					<ul>
+						<li><div><span class="ui-icon ui-icon-seek-start"></span>Prev</div></li>
+						<li><div><span class="ui-icon ui-icon-stop"></span>Stop</div></li>
+						<li><div><span class="ui-icon ui-icon-play"></span>Play</div></li>
+						<li><div><span class="ui-icon ui-icon-seek-end"></span>Next</div></li>
+					</ul>
+				</li>
+				<li><div>Learn more about this menu</div></li>
+			</ul>
+		</li>
+		<li>
+			<div>Help</div>
+			<ul>
+				<li><div>Some option</div></li>
+				<li>
+					<div>
+						<label>
+							<input type="checkbox" name="checkbox" value="value">
+							Toggle me
+						</label>
+					</div>
+				</li>
+				<li class="divider"></li>
+				<li><div><span class="ui-icon ui-icon-info"></span>About</div></li>
+			</ul>
+		</li>
+	</ul>
+
+	<div class="content">
+		<h1>jquery-ui-menubar</h1>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque atque et rem facilis expedita, optio praesentium eius corporis aperiam voluptatibus explicabo reprehenderit laboriosam! Deleniti, ipsa? Necessitatibus rem inventore sit maiores!</p>
+	</div>
+</body>
+
+</html>
